@@ -78,3 +78,42 @@ search{
     object-fit: cover;
     object-position: 0 0;
 }
+
+#owo{
+    text-align: center;
+}
+
+.products_home{
+    margin-bottom: 70px;
+}
+.products_home ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.produto{
+    background-color: gray;
+    padding: 5px;
+    width: fit-content;
+    text-align: center;
+}
+.produto img{
+    height: 200px;
+}
+.products_home h2{
+    margin: 10px;
+}
+
+#footer{
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer div:last-child{
+    text-align: right;
+}
