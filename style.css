@@ -94,14 +94,27 @@ search{
     padding-right: 40px;
 }
 
+.products_categ{
+    margin-bottom: 70px;
+}
+.products_categ ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
 .produto{
     background-color: gray;
     padding: 5px;
-    width: fit-content;
+    width: 150px;
+    height: 290px;
     text-align: center;
 }
 .produto img{
-    height: 200px;
+    max-height: 200px;
+    max-width: 130px;
 }
 .products_home h2{
     margin: 10px;
