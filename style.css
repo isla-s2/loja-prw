@@ -161,6 +161,7 @@ search{
     height: 30px;
 }
 .login_box input[type="submit"]{
+    margin-top: 10px;
     height: 40px;
 }
 .login_box h2{
