@@ -130,3 +130,11 @@ search{
 #footer div:last-child{
     text-align: right;
 }
+
+.login_box{
+    background-color: white;
+    border-style: solid;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
