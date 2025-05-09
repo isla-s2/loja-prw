@@ -129,7 +129,7 @@ search{
 
 .product{
     background-color: gray;
-    padding: 5px;
+    padding: 10px;
     width: 150px;
     height: 290px;
     text-align: center;
@@ -251,7 +251,7 @@ search{
 }
 
 .prod_review spam{
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .r_name{
