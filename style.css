@@ -176,6 +176,7 @@ search{
 .prod_main{
     display: flex;
     align-items: row;
+    margin-bottom: 50px;
 }
 
 .prod_img{
