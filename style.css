@@ -171,12 +171,12 @@ search{
 
 .prod_info{
     background-color: green;
+    margin-bottom: 50px;
 }
 
 .prod_main{
     display: flex;
     align-items: row;
-    margin-bottom: 50px;
 }
 
 .prod_img{
