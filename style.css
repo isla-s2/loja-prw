@@ -250,6 +250,17 @@ search{
     font-size: 20px;
 }
 
+.prod_review spam{
+    margin-right: 5px;
+}
+
+.r_name{
+    font_weight: bold;
+}
+
+.r_date{
+    color: rgba(0, 0, 0, 0.66);
+
 input[type="number"]{
     max-width: 50px;
 }
