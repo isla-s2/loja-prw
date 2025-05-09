@@ -157,7 +157,7 @@ search{
     width: 100%;
     box-sizing: border-box;
 }
-.login_box input[type="text"]{
+.login_box input[type="text"], input[type="password"]{
     margin-bottom: 20px;
     height: 30px;
 }
@@ -198,9 +198,6 @@ search{
 .prod_basics *{
     font-size: 20px;
 }
-.prod_basics input[type="number"]{
-    max-width: 50px;
-}
 .prod_basics input[type="submit"]{
     font-size: 30px;
     padding: 10px;
@@ -229,4 +226,75 @@ search{
 .prod_desc > *{
     margin-top:0;
     font-size: 20px;
+}
+
+input[type="number"]{
+    max-width: 50px;
+}
+
+.cart_main{
+    background-color: green;
+    width: 70%;
+    padding:20px;
+    margin-bottom: 50px;
+}
+.cart_main h1{
+    margin: 0;
+}
+.cart_main ul{
+    padding-left: 0;
+    border-bottom: solid;
+}
+.cart_main li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.cart_main li img{
+    max-height: 100px;
+    margin: 0;
+    margin-right: 10px;
+}
+.cart_main li p{
+    margin: 0;
+}
+.cart_main button{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 30px;
+}
+.cart_main > div{
+    border-bottom: solid;
+}
+
+.item_basics{
+    display: flex;
+    flex-direction: row;
+}
+
+.item_qty{
+    text-align: right;
+}
+
+.shipment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shipment h2{
+    margin-top: 0;
+}
+
+.cart_sum{
+    margin-top: 50px;
+    text-align: right;
+}
+.cart_sum p{
+    margin: 0;
+}
+
+.cart_total{
+    font-size: 50px;
 }
