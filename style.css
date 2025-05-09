@@ -138,7 +138,7 @@ search{
     max-height: 200px;
     max-width: 130px;
 }
-.product a p:first-of-type{
+.product p{
     overflow: hidden !important;
     text-overflow: ellipsis;
 }
