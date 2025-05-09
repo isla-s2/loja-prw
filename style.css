@@ -112,6 +112,9 @@ search{
     justify-content: space-between;
     padding-right: 40px;
 }
+.products_home h2{
+    margin: 10px;
+}
 
 .products_categ{
     margin-bottom: 70px;
@@ -124,19 +127,20 @@ search{
     padding-right: 40px;
 }
 
-.produto{
+.product{
     background-color: gray;
     padding: 5px;
     width: 150px;
     height: 290px;
     text-align: center;
 }
-.produto img{
+.product img{
     max-height: 200px;
     max-width: 130px;
 }
-.products_home h2{
-    margin: 10px;
+.product a p:first-child{
+    overflow: hidden !important;
+    text-overflow: ellipsis;
 }
 
 #footer{
