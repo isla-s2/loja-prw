@@ -191,6 +191,8 @@ search{
 
 .prod_info{
     background-color: green;
+    margin-bottom: 50px;
+    max-width: 90%;
 }
 
 .prod_main{
