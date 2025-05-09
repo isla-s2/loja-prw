@@ -141,6 +141,7 @@ search{
 .product p{
     overflow: hidden !important;
     text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #footer{
