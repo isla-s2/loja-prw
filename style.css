@@ -193,7 +193,7 @@ search{
 }
 
 .prod_info{
-    background-color: green;
+    background-color: #8198ff;
     margin-bottom: 50px;
     max-width: 90%;
 }
@@ -273,7 +273,7 @@ input[type=number]::-webkit-outer-spin-button {
    opacity: 1;
 }
 .cart_main{
-    background-color: green;
+    background-color: #8198ff;
     width: 70%;
     padding:20px;
     margin-bottom: 50px;
