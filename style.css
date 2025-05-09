@@ -260,6 +260,7 @@ search{
 
 .r_date{
     color: rgba(0, 0, 0, 0.66);
+}
 
 input[type="number"]{
     max-width: 50px;
