@@ -1,13 +1,14 @@
-
 body{
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #5e17eb;
 }
 
 #top{
-    background-color: green;
+    background-color: #8198ff;
+    color: #5e17eb;
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -37,7 +38,7 @@ body{
 search{
     background-color: white;
     border-style: solid;
-    border-color: black;
+    border-color: #5e17eb;
     padding: 5px;
     height: fit-content;
 }
@@ -51,6 +52,7 @@ search{
 #mglass{
     height: 20px;
     margin-bottom: -5px;
+    color: #5e17eb;
 }
 
 #top ul{
@@ -145,7 +147,7 @@ search{
 }
 
 #footer{
-    background-color: green;
+    background-color: #8198ff;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -259,7 +261,7 @@ search{
 }
 
 .r_date{
-    color: rgba(0, 0, 0, 0.66);
+    color: rgba(94,23,235,0.66) !important;
 }
 
 input[type="number"]{
@@ -334,4 +336,8 @@ input[type=number]::-webkit-outer-spin-button {
 
 .cart_total{
     font-size: 50px;
+}
+
+a{
+    text-decoration: none;
 }
