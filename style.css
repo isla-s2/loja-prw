@@ -19,6 +19,17 @@ body{
     margin: 5px;
 }
 
+#logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#logo img{
+    max-height: 40px;
+    margin-right: 10px;
+}
+
 search{
     background-color: white;
     border-style: solid;
@@ -44,7 +55,7 @@ search{
     list-style-type: none;
 }
 #top ul img{
-    height: 40px;
+    max-height: 40px;
     margin-right: 10px;
 }
 #top li{
@@ -171,7 +182,6 @@ search{
 
 .prod_info{
     background-color: green;
-    margin-bottom: 50px;
 }
 
 .prod_main{
