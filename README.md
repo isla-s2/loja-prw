@@ -1,4 +1,4 @@
-mmn vou fazer antoacao aq msm azar
+mn vou fazer anotacao aq msm azar
 
 - Baixar todas as imagens dos produtos p nao depender de um link online
 - Fazer uma pasta pras imagens e mudar o src
