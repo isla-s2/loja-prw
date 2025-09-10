@@ -5,3 +5,4 @@ mn vou fazer anotacao aq msm azar
 - Se atentar às cores
 - Melhorar o css num geral socorro
 - limitar os campos de cpf data cep etc
+- fazer header e footer em arquivos separados
