@@ -1,5 +1,7 @@
 ## Anotações
 
+https://www.canva.com/design/DAGym3na65o/t3fJMF6egyUBaN16EUAgcQ/edit?utm_content=DAGym3na65o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 - Baixar todas as imagens dos produtos p nao depender de um link online
 - ~~Fazer uma pasta pras imagens e mudar o src~~ *(fiz)*
 - Se atentar às cores
