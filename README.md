@@ -7,7 +7,7 @@ https://www.canva.com/design/DAGym3na65o/t3fJMF6egyUBaN16EUAgcQ/edit?utm_content
 - Se atentar às cores
 - Melhorar o css num geral socorro
 - limitar os campos de cpf data cep etc
-- fazer header e footer em arquivos separados
+- ~~fazer header e footer em arquivos separados~~
 
 ## Trabalho 2
 
