@@ -8,6 +8,7 @@ https://www.canva.com/design/DAGym3na65o/t3fJMF6egyUBaN16EUAgcQ/edit?utm_content
 - Melhorar o css num geral socorro
 - limitar os campos de cpf data cep etc
 - ~~fazer header e footer em arquivos separados~~
+- Galeria que arrasta
 
 ## Trabalho 2
 
