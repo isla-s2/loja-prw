@@ -388,3 +388,7 @@ a{
 a:link, a:visited, a:hover, a:focus, a:active{
     color: #5e17eb;
 }
+
+#reg_form input{
+    margin-bottom: 0;
+}
