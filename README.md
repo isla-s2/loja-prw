@@ -23,8 +23,8 @@ quando clicar no botão);
 exibir um alerta via div (ou divs) informando o que faltou ser digitado (exemplos:
 faltou digitar o nome ou faltou digitar a senha) e, ao digitar os dados solicitados, a
 mensagem deve desaparecer quando clicar no botão;
-5. Página com informações de um produto: ao selecionar a quantidade (para mais ou
-para menos), deve calcular e exibir o valor parcial na página;
+5. ~~Página com informações de um produto: ao selecionar a quantidade (para mais ou
+para menos), deve calcular e exibir o valor parcial na página;~~
 6. ~~Página contendo um carrinho de compras: totalmente funcional podendo alterar a
 quantidade de um dos três produtos e já mostrar o total parcial na tela (por
 exemplo: 2 calças de R$ 110,00 cada totalizam R$ 220,00), digitar um CEP e
