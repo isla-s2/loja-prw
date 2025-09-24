@@ -8,6 +8,7 @@ form.addEventListener('submit', (e) => {
   const cpf = document.getElementById('cpf').value;
   const bday = document.getElementById('bday').value;
   if (!name) {
+    alert('teste');
     document.getElementById('al_name').innerHTML = 'Campo obrigatório';
   } else if (!mail) {
     document.getElementById('al_mail').innerHTML = 'Campo obrigatório';
@@ -26,7 +27,7 @@ form.addEventListener('submit', (e) => {
     document.getElementById('al_user').innerHTML = '';
     document.getElementById('al_passw').innerHTML = '';
     document.getElementById('al_cpf').innerHTML = '';
-    document.getElementById('al_mail').innerHTML = '';
+    document.getElementById('al_bday').innerHTML = '';
     form.submit();
   }
 });
