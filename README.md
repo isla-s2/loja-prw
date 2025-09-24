@@ -25,12 +25,12 @@ faltou digitar o nome ou faltou digitar a senha) e, ao digitar os dados solicita
 mensagem deve desaparecer quando clicar no botão;
 5. Página com informações de um produto: ao selecionar a quantidade (para mais ou
 para menos), deve calcular e exibir o valor parcial na página;
-6. Página contendo um carrinho de compras: totalmente funcional podendo alterar a
+6. ~~Página contendo um carrinho de compras: totalmente funcional podendo alterar a
 quantidade de um dos três produtos e já mostrar o total parcial na tela (por
 exemplo: 2 calças de R$ 110,00 cada totalizam R$ 220,00), digitar um CEP e
 calcular o valor do frete (deve aceitar os CEPs de Garopaba, Imbituba e Paulo
 Lopes), atualização constante do valor total da compra e inclusão de um campo
 para digitar um cupom (devem ter 2 tipos de cupom disponíveis: um que dá
-desconto no valor total e outro que dá frete grátis independente do valor);
+desconto no valor total e outro que dá frete grátis independente do valor);~~
 7. Outras páginas que a dupla julgar necessária para o site: implementar scripts se
 necessário (opcional).
