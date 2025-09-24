@@ -34,3 +34,6 @@ para digitar um cupom (devem ter 2 tipos de cupom disponíveis: um que dá
 desconto no valor total e outro que dá frete grátis independente do valor);~~
 7. Outras páginas que a dupla julgar necessária para o site: implementar scripts se
 necessário (opcional).
+
+
+teste lolzes
