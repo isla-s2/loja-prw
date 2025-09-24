@@ -4,9 +4,10 @@ form.addEventListener('submit', (e) => {
   const name = document.getElementById('user').value;
   const passw = document.getElementById('passw').value;
   if (!name || !passw) {
-    alert('É necessário digitar usuário e senha para prosseguir');
+    document.getElementById('al_login').innerHTML = 'É necessário digitar usuário e senha para prosseguir';
   } else {
     // Form is valid, submit the form
+    document.getElementById('al_login').innerHTML = '';
     form.submit();
   }
 });
