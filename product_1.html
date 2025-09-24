@@ -8,43 +8,11 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="top">
-      <a href="/loja-prw" id="logo">
-        <img src="img/Card.png">
-        <h1>Card Shop</h1>
-      </a>
-
-      <search>
-        <form>
-          <input name="fsrch" id="fsrch">
-          <input type="image" id="mglass" src="https://cdn-icons-png.flaticon.com/256/51/51658.png">
-        </form>
-      </search>
-
-      <ul>
-        <li><a href="#">Sobre Nós</a></li>
-
-        <li><a href="/loja-prw/login.html">
-          <img src="img/Profile.png">
-          <span>Conta</span>
-        </a></li>
-
-        <li><a href="/loja-prw/cart.html">
-          <div id="cart_icon">
-            <img src="img/Carrinho.png">
-            <strong>8</strong>
-          </div>
-          <div id="cart_text">
-            <span>Carrinho</span>
-            <span>R$ 2949,92</span>
-          </div>
-        </a></li>
-      </ul>
-    </div>
+    <script src="header.js"></script>
 
     <div id="categories">
       <ul>
-        <li><a href="/loja-prw/category_1.html">Pokemón</a></li>
+        <li><a href="category_1.html">Pokemón</a></li>
         <li><a href="#">Magic: the Gathering</a></li>
         <li><a href="#">Yu-Gi-Oh!</a></li>
         <li><a href="#">Outros</a></li>
@@ -57,14 +25,13 @@
                 <img class="prod_img" src="https://rihappy.vtexassets.com/arquivos/ids/7538073/17405767663843.jpg?v=638761762002930000">
                 <div class="prod_basics">
                     <h1>Pokémon Caixa Surpresa Evoluções Prismáticas</h1>
-                    <p class="prod_price">R$ 249,99 à vista</p>
+                    <p class="prod_price">R$ <span class="prod_price" id="prod_unit">249,99</span> à vista</p>
                     <p>até 3x de R$ 83,33 sem juros</p>
                     <p>Entrega em até 10 dias úteis</p>
-                    <form>
-                        <input type="number" id="quantity" name="quantity" min="1" value="1">
-                        <label for="quantity">Unidades (3 disponíveis)</label><br>
-                        <input type="submit" value="Adicionar ao carrinho">
-                    </form>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    <label for="quantity">Unidades (<span id='stock'>3</span> disponíveis)</label><br>
+                    <p>R$ <span id="prod_total">249,99</span></p>
+                    <input type="submit" value="Adicionar ao carrinho">
                     <p>Formas de pagamento:</p>
                     <div class="prod_paym">
                         <img src="https://pngimg.com/d/visa_PNG32.png">
@@ -107,16 +74,7 @@
             </div>
         </div>
     </div>
+    <script src="produto1.js"></script>
 
-    <div id="footer">
-      <div>
-        <p>Card Shop</p>
-        <a href="#">Instagram</a>
-        <a href="#">Facebook</a>
-      </div>
-      <div>
-        <p>contato@cardshop.com</p>
-        <p>+55 (00) 00000-0000</p>
-      </div>
-    </div>
+    <script src="footer.js"></script>
   </body>

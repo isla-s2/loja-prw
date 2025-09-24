@@ -8,43 +8,11 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="top">
-      <a href="/loja-prw" id="logo">
-        <img src="img/Card.png">
-        <h1>Card Shop</h1>
-      </a>
-
-      <search>
-        <form>
-          <input name="fsrch" id="fsrch">
-          <input type="image" id="mglass" src="https://cdn-icons-png.flaticon.com/256/51/51658.png">
-        </form>
-      </search>
-
-      <ul>
-        <li><a href="#">Sobre Nós</a></li>
-
-        <li><a href="/loja-prw/login.html">
-          <img src="img/Profile.png">
-          <span>Conta</span>
-        </a></li>
-
-        <li><a href="/loja-prw/cart.html">
-          <div id="cart_icon">
-            <img src="img/Carrinho.png">
-            <strong>8</strong>
-          </div>
-          <div id="cart_text">
-            <span>Carrinho</span>
-            <span>R$ 2949,92</span>
-          </div>
-        </a></li>
-      </ul>
-    </div>
+    <script src="header.js"></script>
 
     <div id="categories">
       <ul>
-        <li><a href="/loja-prw/category_1.html">Pokemón</a></li>
+        <li><a href="category_1.html">Pokemón</a></li>
         <li><a href="#">Magic: the Gathering</a></li>
         <li><a href="#">Yu-Gi-Oh!</a></li>
         <li><a href="#">Outros</a></li>
@@ -59,86 +27,76 @@
                     <div class="item_basics">
                         <img src="https://rihappy.vtexassets.com/arquivos/ids/7538073/17405767663843.jpg?v=638761762002930000">
                         <div>
-                          <p>Pokémon Caixa Surpresa Evoluções Prismáticas</p>
-                          <p>R$ 249,99</p>
+                            <p>Pokémon Caixa Surpresa Evoluções Prismáticas</p>
+                            <p>R$ <span class="price">249,99</span></p>
                         </div>
                     </div>
                     <div class="item_qty">
-                        <form>
-                            <input type="number" name="quantity" min="0" value="2">
-                        </form>
-                        <p>Total: R$ 499,98</p>
+                        <input class="quantity" type="number" name="quantity" min="1" value="2">
+                        <button type="button" class="delete">Excluir</button>
+                        <p>Total: R$ <span class="prodTotal">499,98</span></p>
                     </div>
                 </li>
                 <li>
                     <div class="item_basics">
                         <img src="https://a-static.mlcdn.com.br/800x560/pokemon-blister-quadruplo-escarlate-e-violeta-amigos-de-jornada-yanmega-tcg-geek-cartas-colecao-pokemon-cards-copag/vendasonline013/quadevajyanmega/11381ac99a31950e91104b4238a02998.jpeg">
                         <div>
-                          <p>Blister Quadruplo Pokémon Yanmega - Escarlate E Violeta 9 - Amigos De Jornada</p>
-                          <p>R$ 49,99</p>
+                            <p>Blister Quadruplo Pokémon Yanmega - Escarlate E Violeta 9 - Amigos De Jornada</p>
+                            <p>R$ <span class="price">49,99</span></p>
                         </div>
                     </div>
                     <div class="item_qty">
-                        <form>
-                            <input type="number" name="quantity" min="0" value="5">
-                        </form>
-                        <p>Total: R$ 249,95</p>
+                        <input class="quantity" type="number" name="quantity" min="1" value="5">
+                        <button type="button" class="delete">Excluir</button>
+                        <p>Total: R$ <span class="prodTotal">249,95</span></p>
                     </div>
                 </li>
                 <li>
                     <div class="item_basics">
                         <img src="https://img.mypcards.com/img/2/1589/pokemon_evs_209_203/pokemon_evs_209_203_pt.jpg">
                         <div>
-                          <p>Glaceon-VMAX (209/203)</p>
-                          <p>R$ 2.199,99</p>
+                            <p>Glaceon-VMAX (209/203)</p>
+                            <p>R$ <span class="price">2199,99</span></p>
                         </div>
                     </div>
                     <div class="item_qty">
-                        <form>
-                            <input type="number" name="quantity" min="0" value="1">
-                        </form>
-                        <p>Total: R$ 2.199,99</p>
+                        <input class="quantity" type="number" name="quantity" min="1" value="1">
+                        <button type="button" class="delete">Excluir</button>
+                        <p>Total: R$ <span class="prodTotal">2199,99</span></p>
                     </div>
                 </li>
             </ul>
             <div class="shipment">
                 <div>
                     <h2>Cálculo do Frete</h2>
-                    <form>
-                        <input type="text" name="CEP" placeholder="Digite seu CEP"><br>
-                    </form>
+                    <input id="cep" type="text" name="CEP" placeholder="Digite seu CEP"><br>
                     <a href="#">Não sei meu CEP</a>
                 </div>
                 <div>
-                    <form>
-                      
-                        <input type="radio" id="s_op1" name="fav_language" value="HTML">
-                        <label for="s_op1">Retirada na loja: R$ 0,00</label><br>
-                        <input type="radio" id="s_op2" name="fav_language" value="CSS">
-                        <label for="s_op2">PAC (em até 10 dias úteis): R$ 25,34</label><br>
-                        <input type="radio" id="s_op3" name="fav_language" value="JavaScript">
-                        <label for="s_op3">SEDEX (em até 5 dias úteis): R$ 36,48</label>
-                    </form>
+                    <input type="radio" id="s_op1" name="s_op" value="1" class="s_op">
+                    <label for="s_op1">Retirada na loja: R$ <span class="s_price">0,00</span></label><br>
+                    <input type="radio" id="s_op2" name="s_op" value="2" class="s_op">
+                    <label for="s_op2">PAC (em até 10 dias úteis): R$ <span class="s_price">25,34</span></label><br>
+                    <input type="radio" id="s_op3" name="s_op" value="3" class="s_op">
+                    <label for="s_op3">SEDEX (em até 5 dias úteis): R$ <span class="s_price">36,48</span></label>
                 </div>
             </div>
-            <div class="cart_sum">
-                <p>Subtotal: R$ 2949,92</p>
-                <p>Frete: R$ 36,48</p>
-                <p class="cart_total">Total: R$ 2986,40</p>
+            <div>
+                <h2>Cupom de desconto</h2>
+                <input id="coupon" type="text" name="coupon" placeholder="Digite o cupom"><br>
+                <button type="button" id="c_set">Aplicar</button>
+                <p id="c_warn"></p>
             </div>
-            <button type="button">Finalizar Compra</button>
+            <div class="cart_sum">
+                <p>Subtotal: R$ <span id="subtotal">00,00</span></p>
+                <p>Frete: $ <span id="s_total">00,00</span></p>
+                <p>Desconto: -$ <span id="c_total">00,00</span></p>
+                <p class="cart_total">Total: R$ <span id="total">00,00</span></p>
+            </div>
+            <button type="button" id="buy" type="button">Finalizar Compra</button>
         </div>
     </div>
+    <script src="carrinho.js"></script>
 
-    <div id="footer">
-      <div>
-        <p>Card Shop</p>
-        <a href="#">Instagram</a>
-        <a href="#">Facebook</a>
-      </div>
-      <div>
-        <p>contato@cardshop.com</p>
-        <p>+55 (00) 00000-0000</p>
-      </div>
-    </div>
+    <script src="footer.js"></script>
   </body>
