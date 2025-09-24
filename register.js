@@ -1,13 +1,13 @@
 const form = document.getElementById('reg_form');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
+    alert('teste');
   const name = document.getElementById('name').value;
   const mail = document.getElementById('mail').value;
   const user = document.getElementById('user').value;
   const passw = document.getElementById('passw').value;
   const cpf = document.getElementById('cpf').value;
   const bday = document.getElementById('bday').value;
-    alert('teste');
   if (!name) {
     document.getElementById('al_name').innerHTML = 'Campo obrigatório';
   } if (!mail) {
