@@ -7,10 +7,10 @@ form.addEventListener('submit', (e) => {
   const passw = document.getElementById('passw').value;
   const cpf = document.getElementById('cpf').value;
   const bday = document.getElementById('bday').value;
-  if (!name) {
     alert('teste');
+  if (!name) {
     document.getElementById('al_name').innerHTML = 'Campo obrigatório';
-  } else if (!mail) {
+  } if (!mail) {
     document.getElementById('al_mail').innerHTML = 'Campo obrigatório';
   } else if (!user) {
     document.getElementById('al_user').innerHTML = 'Campo obrigatório';
