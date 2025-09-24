@@ -1,4 +1,3 @@
-
 const form = document.getElementById('reg_form');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
