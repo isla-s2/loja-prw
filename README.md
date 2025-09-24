@@ -13,8 +13,8 @@ https://www.canva.com/design/DAGym3na65o/t3fJMF6egyUBaN16EUAgcQ/edit?utm_content
 ## Trabalho 2
 
 1. ~~Criar um único arquivo CSS para toda a plataforma (para todas as páginas);~~ *(já temos!)*
-2. Página inicial do site contendo campo para busca de produtos: implementar um
-autocomplete para os nomes dos produtos;
+2. ~~Página inicial do site contendo campo para busca de produtos: implementar um
+autocomplete para os nomes dos produtos;~~
 3. Página de login com usuário e senha: se o usuário não digitar o usuário e a senha,
 deve exibir um alerta em um div: “É necessário digitar usuário e senha para
 prosseguir” (ao digitar os dados solicitados, a mensagem deve desaparecer
