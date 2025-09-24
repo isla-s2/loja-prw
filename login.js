@@ -1,10 +1,10 @@
-const form = document.getElementById('contact-form');
+const form = document.getElementById('login_form');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
+  const name = document.getElementById('user').value;
+  const email = document.getElementById('passw').value;
   if (!name || !email) {
-    alert('Please fill in all fields');
+    alert('É necessário digitar usuário e senha para prosseguir');
   } else {
     // Form is valid, submit the form
     form.submit();
